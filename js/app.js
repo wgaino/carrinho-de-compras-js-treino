@@ -47,7 +47,7 @@ function adicionar() {
     campoCarrinho.innerHTML += `<section class="carrinho__produtos__produto">
           <span class="texto-azul">${quantidade}x</span> ${nomeProduto} <span class="texto-azul">R$${precoProduto}</span>
         </section>`;
-
+    document.getElementById('quantidade').value = '';
 }
 
 
