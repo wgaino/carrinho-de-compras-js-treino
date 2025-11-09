@@ -2,6 +2,8 @@
     let listaDeProdutos = [];
     // criando o valor total geral (produtos acumulando)
     let totalGeral = 0;
+    // zerando o campo de produtos ao iniciar.
+    document.getElementById('lista-produtos').innerHTML = '';
 
 function adicionar() {
 
