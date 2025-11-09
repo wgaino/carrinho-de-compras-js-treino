@@ -4,6 +4,8 @@
     let totalGeral = 0;
     // zerando o campo de produtos ao iniciar.
     document.getElementById('lista-produtos').innerHTML = '';
+    // zerando o campo de valor ao iniciar.
+    document.getElementById ('valor-total').textContent = 'R$ 0,00';
 
 function adicionar() {
 
